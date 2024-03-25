@@ -21,7 +21,7 @@ const answer = await inquirer.prompt([
 }  else if (answer.operator ==="Division"){
     console.log(answer.firstNumber / answer.secondNumber);
 }  else {
-    console.log("please select a valid operator")
+    console.log("please select a right operator")
 }  
 
 
