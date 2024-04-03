@@ -7,7 +7,7 @@ const answer = await inquirer.prompt([
     {message: "Select one of the opreator to perform action",
      type: "list", 
      name: "operator",
-     choices: ["Addittion","Subtraction","Multiplication","Division"],
+     choices: ["Addittion","Subtraction","Multiplication","Division","Module"],
 },
 ]);
 // Conditional statment.
@@ -20,8 +20,8 @@ const answer = await inquirer.prompt([
     console.log(answer.firstNumber * answer.secondNumber);
 }  else if (answer.operator ==="Division"){
     console.log(answer.firstNumber / answer.secondNumber);
-}  else {
-    console.log("please select a right operator")
+    } else {
+   console.log("please select a right operator !!")
 }  
 
 

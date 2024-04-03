@@ -1,6 +1,6 @@
 {
   "name": "j5r10simple-calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is my simple calculator.",
   "main": "index.js",
   "type":"module",
