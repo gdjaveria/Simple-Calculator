@@ -6,11 +6,11 @@ const answer = await inquirer.prompt([
     { message: "Select one of the opreator to perform action",
         type: "list",
         name: "operator",
-        choices: ["Addittion", "Subtraction", "Multiplication", "Division", "Module"],
+        choices: ["Addittion", "Subtraction", "Multiplication", "Division",]
     },
 ]);
 // Conditional statment.
-if (answer.operator === "Addition") {
+if (answer.operator === "Addittion") {
     console.log(answer.firstNumber + answer.secondNumber);
 }
 else if (answer.operator === "Subtraction") {
